@@ -1,0 +1,9 @@
+<h1>Hello!</h1>
+<form action="/answer" data-turbo="false">
+  <input type="text"
+  name="answer"
+  value="<%= params[:answer] %>"
+  placeholder="Type you question!"
+>
+  <input type="submit" value="Ask!">
+</form>
